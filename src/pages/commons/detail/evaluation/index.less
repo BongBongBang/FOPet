@@ -1,0 +1,72 @@
+@import '../../../../stylesheets/base/index';
+
+.pet-evaluation {
+  @base-symbol-card();
+
+  &-goodsDetail {
+    @base-symbol-order-goodsInfo();
+    height: 80PX;
+
+    &-content {
+      &-foster,
+      &-medical {
+        width: calc(100% - 88PX);
+      }
+    }
+
+    @base-symbol-card-totalPlaceHolder();
+  }
+
+  &-rate {
+    margin: 0 24px;
+
+    &-detail {
+      padding: 0 24px;
+      font-size: 16PX;
+      font-weight: 500;
+      color: @base-symbol-important-color;
+      box-sizing: border-box;
+      align-items: center;
+
+      &-score {
+        margin-left: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        &-detail {
+          margin-left: 4PX;
+          color: #f8cb5b;
+          font-size: 15PX;
+        }
+      }
+    }
+  }
+
+  &-mark {
+    border-top: 1PX solid #eee;
+    margin-top: 14PX;
+    padding: 0 24px;
+
+    &-detail {
+      border: none;
+      padding: 12PX;
+
+      .at-textarea {
+        &__textarea {
+          font-size: 14PX;
+        }
+      }
+    }
+  }
+
+  &-submit {
+    padding: 17PX;
+    margin-top: 80PX;
+    box-sizing: border-box;
+
+    .at-button--primary {
+      @base-publish-button();
+    }
+  }
+}
