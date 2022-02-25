@@ -1,0 +1,78 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "Pat-Planet",
+	"description": "For Pat-Planet",
+	"appid": "wxc8bccc0233cf1237",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true,
+		"checkInvalidKey": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": 0,
+					"name": "分享进入此页面",
+					"pathName": "pages/shareDetail/index",
+					"query": "id=134&page=index",
+					"scene": 1044,
+					"shareInfo": {
+						"groupName": "测试模拟群0",
+						"shareName": "0OVRaQhyf4xX-Pv4LJLlXeFGu_vH8MH5vQ3v5kcdRmQ@cr4dev",
+						"shareKey": "ExEfTcn_TrrfzTMfqVmxdaFOUNCZztHUQEMGieMpcrKP-77qAJFXqMGGmCjpMcJBNQBHSJzSuEgNWoPzeTR53A~~"
+					}
+				},
+				{
+					"id": 1,
+					"name": "下次编译模拟更新",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "签到分享",
+					"pathName": "pages/attendance/index",
+					"query": "",
+					"scene": 1044,
+					"shareInfo": {
+						"groupName": "测试模拟群1",
+						"shareName": "0OVRaQhyf4xX-Pv4LJLlXVpm92DWNsQ8G6hU1pvSJsE@cr4dev",
+						"shareKey": "jpF6VXIrJJ53qbQqXXVyuiiHtKF98vEr8LZsCvEbyPYdQmhRyJ35i7Ms_tNZ8cLk6kRb6YtAYG3GUVpjS6DRgA~~"
+					}
+				},
+				{
+					"id": 3,
+					"name": "签到分享",
+					"pathName": "pages/attendance/index",
+					"query": "scene=opengid%3Dladanmu5",
+					"scene": 1047
+				}
+			]
+		}
+	}
+}
