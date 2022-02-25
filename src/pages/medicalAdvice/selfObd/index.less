@@ -1,0 +1,31 @@
+@import '../../../stylesheets/base/index';
+
+page {
+  height: 100%;
+
+  .pet-selfObd {
+    &-tabs {
+      height: 100%;
+
+      @base-symbol-tabs();
+
+      &-list {
+        &-item {
+          padding: 15PX 15PX 18PX;
+          font-size: 15PX;
+          font-weight: 400;
+          color: @base-symbol-important-color;
+
+          &:after {
+            border-bottom: none;
+          }
+
+          .at-list__item-extra {
+            width: auto;
+            flex: none;
+          }
+        }
+      }
+    }
+  }
+}

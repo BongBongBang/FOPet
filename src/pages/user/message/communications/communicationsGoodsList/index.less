@@ -1,0 +1,51 @@
+@import '../../../../../stylesheets/base/index';
+
+page {
+  height: 100%;
+
+  .pet-communicationsGoodsList {
+    height: 100%;
+
+    @base-symbol-loading();
+
+    &-item {
+      padding: 8PX 17PX;
+
+      &-avatar {
+        width: 128px;
+        height: 128px;
+        border-radius: 4PX;
+      }
+
+      .list-item {
+        &-title {
+          font-size: 18PX;
+        }
+      }
+
+      @base-symbol-goods-price();
+
+      &-go {
+        width: 9PX;
+        margin-left: 4PX;
+        transform: rotate(180deg);
+      }
+    }
+
+    &-empty {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+
+      .empty-icon {
+        display: inline-block;
+      }
+
+      .empty-description {
+        margin-top: 10PX;
+      }
+    }
+
+    @base-symbol-loadMore();
+  }
+}
