@@ -1,0 +1,165 @@
+page {
+  & {
+    height: 100%;
+  }
+
+  .pet-communications {
+    & {
+      padding-bottom: 52PX;
+    }
+
+    &-communicationsValue {
+      width: 100%;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      z-index: 2;
+      padding: 20px 16px;
+      box-shadow: 0rpx 0rpx 5PX #eee;
+
+
+      .at-search-bar__input-cnt {
+        & {
+          height: 36PX;
+        }
+
+        .at-search-bar__placeholder-wrap {
+
+          & {
+            height: 36PX;
+            justify-content: flex-start;
+            padding-left: 4PX;
+          }
+
+          .at-icon {
+            display: none;
+          }
+        }
+
+        .at-search-bar__input {
+          height: 36PX !important;
+          font-size: 16PX !important;
+          padding-left: 8PX;
+        }
+
+        .at-search-bar__clear {
+          height: 36PX;
+          font-size: 16PX;
+        }
+      }
+
+      .at-search-bar__action {
+        height: 36PX;
+        line-height: 36PX;
+        background-color: #fb2a5d;
+      }
+
+      &-focus {
+        .at-search-bar__action {
+          margin-left: 10PX;
+        }
+      }
+    }
+
+    &-container {
+      & {
+        padding: 8PX 16PX;
+        border-bottom: 1px solid #eaeaea;
+      }
+    }
+
+    &-os {
+      & {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      &-avatar {
+        width: 128px;
+        height: 128px;
+      }
+
+
+      &-content {
+        & {
+          margin-left: 12PX;
+          position: relative;
+          width: calc(100% - 128px);
+        }
+
+        &-username {
+          font-size: 16PX;
+          font-weight: bolder;
+        }
+
+        &-time {
+          color: #888;
+          font-size: 13PX;
+        }
+
+        &-master {
+          position: absolute;
+          right: 0;
+          top: 0;
+          color: #fb2a5d;
+          font-size: 13PX;
+        }
+      }
+    }
+
+    &-qs {
+      & {
+        font-size: 17PX;
+        margin-top: 12PX;
+      }
+    }
+
+    &-item {
+      & {
+        padding: 10PX 0 8PX 32PX;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+
+      &-avatar {
+        width: 72px;
+        height: 72px;
+      }
+
+      &-content {
+        & {
+          width: calc(100% - 96px);
+          padding: 0 0 10PX 12PX;
+          margin-left: 4PX;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          border-bottom: 1px solid #f0f0f0;
+        }
+
+        &-username {
+          font-size: 14PX;
+        }
+
+        &-time {
+          color: #888;
+          font-size: 12PX;
+        }
+
+        &-txt {
+          margin-top: 8PX;
+          font-size: 15PX;
+
+          &.grey {
+            color: #888;
+          }
+        }
+      }
+    }
+  }
+}
