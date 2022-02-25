@@ -1,0 +1,43 @@
+page {
+  height: 100%;
+}
+
+.pet-selfObd {
+  &-tabs {
+    height: 100%;
+
+    .at-tabs__underline {
+      left: -1PX;
+    }
+
+    .at-tabs__item--active {
+      color: #398ee2;
+
+      .at-tabs__item-underline {
+        background-color: #398ee2;
+        width: 4PX;
+        z-index: 6;
+      }
+    }
+
+    .at-tabs__item {
+    }
+
+    &-list {
+      &-item {
+        & {
+          padding: 20rpx 24rpx;
+        }
+
+        &:after {
+          border-bottom: 1px solid #e0e0e0;
+        }
+
+        .at-list__item-extra {
+          width: auto;
+          flex: none;
+        }
+      }
+    }
+  }
+}
