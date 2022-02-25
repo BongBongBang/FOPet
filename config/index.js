@@ -12,10 +12,10 @@ const config = {
   sourceRoot: 'src',
   outputRoot: 'dist',
   plugins: [
-    '@tarojs/plugin-sass',
     '@tarojs/plugin-less',
     '@tarojs/plugin-terser'
   ],
+  framework: 'react',
   babel: {
     sourceMap: false,
     presets: [

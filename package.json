@@ -21,12 +21,14 @@
 	"dependencies": {
 		"@tarojs/async-await": "2.2.17",
 		"@tarojs/cli": "2.2.17",
-		"@tarojs/components": "2.2.17",
-		"@tarojs/mini-runner": "2.2.17",
+		"@tarojs/components": "^3.2.2-beta.0",
+		"@tarojs/mini-runner": "^3.2.2-beta.0",
+		"@tarojs/react": "^3.2.2-beta.0",
 		"@tarojs/redux": "2.2.17",
 		"@tarojs/redux-h5": "2.2.17",
 		"@tarojs/router": "2.2.17",
-		"@tarojs/taro": "2.2.17",
+		"@tarojs/runtime": "^3.2.2-beta.0",
+		"@tarojs/taro": "^3.2.2-beta.0",
 		"@tarojs/taro-alipay": "2.2.17",
 		"@tarojs/taro-h5": "2.2.17",
 		"@tarojs/taro-swan": "2.2.17",
@@ -42,7 +44,7 @@
 		"nerv-devtools": "^1.5.7",
 		"nervjs": "^1.5.7",
 		"prop-types": "^15.6.2",
-		"react": "^16.6.3",
+		"react": "^17.0.2",
 		"react-redux": "^5.1.1",
 		"redux": "^4.0.1",
 		"redux-devtools": "^3.4.2",
@@ -56,7 +58,6 @@
 		"@tarojs/plugin-babel": "2.2.17",
 		"@tarojs/plugin-csso": "2.2.17",
 		"@tarojs/plugin-less": "2.2.17",
-		"@tarojs/plugin-sass": "2.2.17",
 		"@tarojs/plugin-terser": "2.2.17",
 		"@tarojs/plugin-uglifyjs": "2.2.7",
 		"@tarojs/webpack-runner": "2.2.17",
@@ -75,6 +76,6 @@
 		"eslint-plugin-import": "^2.12.0",
 		"eslint-plugin-react": "^7.8.2",
 		"eslint-plugin-taro": "2.2.17",
-		"webpack-bundle-analyzer": "^3.6.0"
+		"webpack-bundle-analyzer": "^3.9.0"
 	}
 }
