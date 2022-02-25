@@ -1,0 +1,250 @@
+@import '../../../../../stylesheets/base/index';
+
+page {
+  background-color: #fff;
+
+  .at-message {
+    padding: 22px 10px;
+  }
+
+  .pet-detail {
+    &-iPhoneXM-navBar {
+      padding-top: 92px;
+    }
+
+    &-iPhoneX-navBar {
+      padding-top: 106px;
+    }
+
+    &-iPhone12-navBar {
+      padding-top: 106px;
+    }
+
+    &-iPhone13-navBar {
+      padding-top: 106px;
+    }
+
+    &-iPhoneInch-navBar {
+      padding-top: 60px;
+    }
+
+    &-iPhone-navBar {
+      padding-top: 60px;
+    }
+
+    &-iPhone5-navBar {
+      padding-top: 76px;
+    }
+
+    &-Android-navBar {
+      padding-top: 64px;
+    }
+  }
+
+  .pet-placeOrder {
+    &-navBar {
+      @base-navBar-title();
+    }
+
+    @base-symbol-loading();
+
+    &-area {
+      padding: 12PX 17PX;
+      border-bottom: 1PX solid @base-symbol-border-color;
+
+      &-title {
+        @base-foster-placeOrder-title();
+
+        &-desc {
+          @base-desc-style();
+        }
+      }
+
+      &-content {
+        @base-foster-placeOrder-service();
+      }
+
+      &-service {
+        &-item {
+          @base-foster-placeOrder-service();
+          margin-top: 12PX;
+
+          &-title {
+            width: 80PX;
+            display: inline-block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+
+          &-info {
+            color: @base-main-color;
+
+            &-symbol {
+              font-size: 10PX;
+              margin-right: 2PX;
+            }
+          }
+
+          &-number {
+            margin-right: 6PX;
+            @base-symbol-inputNumber();
+          }
+
+          &-numberCounter {
+            color: @base-main-color;
+            display: block;
+          }
+
+          &-switch {
+            margin: 0;
+            padding: 8px 0;
+          }
+        }
+      }
+
+      &-picker {
+        display: inline-block;
+        margin: 0 2PX;
+      }
+
+      &-contact,
+      &-contactPhone {
+        margin-left: 0;
+        padding: 0;
+
+        input {
+          font-size: 14PX;
+          color: @base-symbol-tag-color;
+        }
+
+        &:after {
+          border: none;
+        }
+      }
+
+      &-description {
+        display: block;
+      }
+
+      &-textarea {
+        border: none;
+        padding: 0;
+        margin-top: 16PX;
+
+        .at-textarea {
+          &__textarea {
+            font-size: 14PX;
+            color: @base-symbol-tag-color;
+          }
+        }
+      }
+
+      &-agreement {
+        display: inline-block;
+
+        &-wrap {
+          margin-top: 8PX;
+          padding-bottom: 56PX;
+        }
+
+        &-wrapX {
+          padding-bottom: 72PX;
+        }
+
+        &.at-checkbox {
+          &:before,
+          &:after {
+            border: none
+          }
+
+          .at-checkbox {
+            &__option {
+              padding: 0;
+
+              &-wrap {
+                padding: 0;
+              }
+
+              &-cnt {
+                align-items: center;
+              }
+
+              &--selected {
+                .at-checkbox__icon-cnt {
+                  background-color: @base-main-color;
+                }
+              }
+            }
+
+            &__icon {
+              &-cnt {
+                margin-right: 12px;
+                margin-top: 0;
+                border-color: @base-symbol-tag-color;
+              }
+            }
+
+            &__title {
+              font-size: 14PX;
+              color: @base-symbol-tag-color;
+            }
+          }
+        }
+      }
+
+      &-agreementDetail {
+        display: inline-block;
+        font-size: 14PX;
+        color: @base-main-color;
+        margin-top: 12PX;
+      }
+    }
+
+    &-desc {
+      border: none;
+    }
+
+    &-account {
+      position: fixed;
+      bottom: -4PX;
+      width: 100%;
+      height: 48PX;
+      z-index: 3;
+      line-height: 0;
+
+      &-total,
+      &-ordered {
+        border-radius: 0;
+        display: inline-block;
+        @base-symbol-half-button();
+      }
+
+      &-totalX,
+      &-orderedX {
+        height: 72PX;
+      }
+
+      &-total {
+
+        &-float,
+        &-symbol {
+          font-size: 12PX;
+        }
+
+        &-symbol {
+          margin: 0 2PX;
+        }
+      }
+
+      &-ordered {
+        background-color: @base-main-color;
+        border-color: @base-main-color;
+      }
+    }
+
+    &-accountX {
+      height: 72PX;
+    }
+  }
+}

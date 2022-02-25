@@ -1,0 +1,56 @@
+@import '../../../stylesheets/base/index';
+
+page {
+  height: 100%;
+
+  .pet-goodsList {
+    @base-symbol-loading();
+
+    &-navBar {
+      @base-navBar-title();
+    }
+
+    &-item {
+      padding: 0 15PX;
+      border-bottom: none;
+      height: 120PX;
+      margin-top: 10PX;
+
+      &-cover {
+        width: 120PX;
+        height: 120PX;
+        border-radius: 4PX;
+      }
+
+      &-content {
+
+        &-desc {
+          font-size: 12PX;
+          margin-top: 6PX;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          color: @base-symbol-tag-color;
+        }
+
+        @base-symbol-goods-price();
+
+        &-price {
+          margin-top: 8PX;
+        }
+
+        &-sale {
+          font-size: 12PX;
+          color: @base-symbol-color;
+          margin-top: 10PX;
+        }
+      }
+    }
+
+    &-empty {
+      @base-empty();
+    }
+
+    @base-symbol-loadMore();
+  }
+}
