@@ -1,0 +1,41 @@
+view.pet-detail-navBar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  z-index: 2;
+  padding-left: 6rpx;
+
+  &.pet-detail-iPhoneX-navBar {
+    padding-top: 88px;
+  }
+
+  &.pet-detail-iPhone-navBar {
+    padding-top: 40px;
+  }
+
+  &.pet-detail-Android-navBar {
+    padding-top: 48px;
+  }
+
+  view.nav-bar {
+    padding: 22px 10px;
+    box-sizing: border-box;
+    align-items: center;
+    &-leftIcon {
+      text.iconfont-petPlanet-home {
+        position: relative;
+        left: 8px;
+      }
+    }
+
+    &-title {
+      line-height: 1;
+      text-align: center;
+      font-size: 30px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+}
