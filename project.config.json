@@ -1,0 +1,152 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "Pat-Planet",
+	"description": "For Pat-Planet",
+	"appid": "wxc8bccc0233cf1237",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"enhance": false,
+		"postcss": false,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": true,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"id": 0,
+					"name": "分享进入此页面",
+					"pathName": "pages/shareDetail/index",
+					"query": "id=157&page=index&nickName=汪奴5683&avatarUrl= https://api.csg.1jtec.club/tinyStatics/imgs/default-0.png",
+					"scene": 1044,
+					"shareInfo": {
+						"groupName": "测试模拟群0",
+						"shareName": "0OVRaQhyf4xX-Pv4LJLlXeFGu_vH8MH5vQ3v5kcdRmQ@cr4dev",
+						"shareKey": "ExEfTcn_TrrfzTMfqVmxdaFOUNCZztHUQEMGieMpcrKP-77qAJFXqMGGmCjpMcJBNQBHSJzSuEgNWoPzeTR53A~~"
+					}
+				},
+				{
+					"id": 1,
+					"name": "下次编译模拟更新",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "签到分享",
+					"pathName": "pages/attendance/index",
+					"query": "scene=opengid%3Dladanmu5",
+					"scene": 1047
+				},
+				{
+					"id": 3,
+					"name": "pages/selfObd/index",
+					"pathName": "pages/selfObd/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "个人页面",
+					"pathName": "pages/user/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "会话页面",
+					"pathName": "pages/message/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "对话记录页面",
+					"pathName": "pages/communications/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "医生页面 ",
+					"pathName": "pages/medicalDoctor/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 8,
+					"name": "话题列表页",
+					"pathName": "pages/flowTopic/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "结果页面",
+					"pathName": "pages/resultPage/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "症状自诊",
+					"pathName": "pages/selfObd/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 11,
+					"name": "症状详情",
+					"pathName": "pages/disease/index",
+					"query": "optionId=17&title=呕吐",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "加载患病结果详情",
+					"pathName": "pages/diseaseDetail/index",
+					"query": "id=454",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/medicalDoctor/index",
+					"pathName": "pages/medicalDoctor/index",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

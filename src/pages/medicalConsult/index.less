@@ -1,0 +1,72 @@
+page {
+  .pet-consult {
+    & {
+      padding: 0 15PX 0;
+    }
+
+    .panel_title {
+      position: relative;
+      margin-bottom: 50px;
+      font-size: 32px;
+      font-weight: bold;
+      line-height: 1.5;
+    }
+
+    .radio {
+      &-title {
+        & {
+          margin-left: 4PX;
+          font-size: 32px;
+          line-height: 42px;
+        }
+
+        &-icon {
+          line-height: 42px;
+        }
+
+        &-container {
+          align-items: center;
+        }
+      }
+
+      &-sub-title {
+        font-size: 24px;
+        margin-top: 12rpx;
+        line-height: 36px;
+      }
+
+      &-item {
+
+        &-content {
+          border: #eee 2px solid;
+          border-radius: 8px;
+          padding: 20px 0 20px 40px;
+          box-sizing: border-box;
+          width: calc(100% - 12PX);
+          margin-left: 4PX;
+
+          &.checked {
+            border: 2px solid rgb(57, 142, 226);
+          }
+        }
+
+        &:first-child {
+          .radio-item-content {
+            margin-left: 0;
+            margin-right: 4PX;
+          }
+        }
+      }
+    }
+
+    &-description {
+      margin-top: 100px;
+    }
+
+    .next-step {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  }
+}
