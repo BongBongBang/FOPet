@@ -1,0 +1,157 @@
+@import '../../../stylesheets/base/index';
+
+page {
+  background-color: @base-symbol-backgroundColor;
+  height: 100%;
+
+  .pet-shoppingChart {
+    @base-symbol-loading();
+
+    height: calc(100% - 56PX);
+
+    &-list {
+      height: 100%;
+
+      &-item {
+        margin-top: 10PX;
+
+        @base-symbol-card();
+
+        .at-card {
+          border: none;
+
+          &__header {
+            height: 0;
+            display: none;
+          }
+        }
+      }
+    }
+
+    &-card {
+      @base-symbol-order-goodsInfo();
+      height: 80PX;
+      margin-bottom: 6PX;
+
+      &-header {
+        width: 100%;
+        padding-bottom: 22PX;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        &-title {
+          font-size: 16PX;
+          font-weight: 500;
+          color: @base-symbol-important-color;
+          margin-left: 8PX;
+        }
+
+        &-checked {
+          display: flex;
+          align-items: center;
+          height: 23PX;
+
+          @base-shoppingChart-checked-empty();
+        }
+      }
+
+      &-priceNum {
+        &-discPrice {
+          text-align: right;
+        }
+
+        &-num {
+          margin-top: 6PX;
+
+          &-inputNumber {
+            margin-right: 0;
+
+            &.at-input-number {
+              .at-input-number {
+                &__input {
+                  width: 20PX;
+                }
+
+                &__btn {
+                  padding: 10px 12px;
+
+                  &-add,
+                  &-subtract {
+                    font-size: 14px;
+                    line-height: 16px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @base-symbol-loadMore();
+
+    &-other {
+      @base-symbol-card-totalPlaceHolder();
+    }
+
+    &-totalPrice {
+      display: flex;
+      bottom: 0;
+      height: 54PX;
+      background-color: #fff;
+      z-index: 9;
+      border-top: 1PX solid @base-symbol-light-grey-color;
+      box-sizing: border-box;
+      justify-content: space-between;
+      padding: 0 26PX;
+
+      &-allChecked {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        @base-shoppingChart-checked-empty();
+
+        &-desc {
+          font-size: 14PX;
+          color: @base-symbol-color;
+          margin-left: 8PX;
+        }
+      }
+
+      @base-symbol-card-totalPlaceHolder-detail();
+
+      &-container {
+        display: flex;
+        align-items: center;
+      }
+
+      &-total {
+        margin: 0;
+        line-height: 54PX;
+
+        &-button {
+          margin-left: 10PX;
+          width: 80PX;
+          height: 33PX;
+          line-height: 32PX;
+          @base-publish-button();
+        }
+      }
+    }
+
+    &-modal {
+      .at-modal {
+        &__content {
+          min-height: 80px;
+          text-align: center;
+        }
+      }
+    }
+
+    &-empty {
+      height: 100%;
+    }
+  }
+}
