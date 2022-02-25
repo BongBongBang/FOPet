@@ -1,0 +1,88 @@
+@import '~taro-ui/dist/style/components/avatar.scss';
+@import '../../../stylesheets/base/index';
+
+page {
+  height: 100%;
+
+  .redPacket {
+    height: 100%;
+    overflow: auto;
+
+    &-bg {
+      width: 100%;
+      height: auto;
+    }
+
+    &-area {
+      @include base-redPacket-area;
+    }
+
+    &-desc {
+      @include base-redPacket-desc;
+    }
+
+    &-totalPrice {
+      @include base-redPacket-totalPrice;
+
+      &-symbol {
+        @include base-redPacket-totalPrice-symbol;
+      }
+    }
+
+    &-totalPriceDesc {
+      @include base-redPacket-totalPrice;
+      font-size: 16PX;
+      font-weight: normal;
+      margin-top: 24PX;
+      line-height: 1;
+    }
+
+    &-userPacket {
+      margin-top: 12PX;
+
+      &:first-child {
+        margin-top: 40PX;
+      }
+
+      &-userList {
+        padding: 0 17PX;
+        border: none;
+        align-items: flex-start;
+        box-sizing: border-box;
+
+        .list {
+          &-item {
+            &-title {
+              width: calc(100% - 144PX);
+            }
+          }
+        }
+
+        &-userInfo,
+        &-priceTag {
+          height: 60PX;
+          margin-top: 8PX;
+          border-bottom: 1PX solid $base-symbol-border-color;
+        }
+
+        &-userInfo {
+          &-userName {
+            font-size: 16PX;
+          }
+
+          &-time {
+            font-weight: normal;
+            font-size: 14PX;
+            color: $base-symbol-color;
+            margin-top: 3PX;
+          }
+        }
+
+        &-priceTag {
+          width: 80PX;
+          text-align: right;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@import '~taro-ui/dist/style/components/button.scss';
+@import '~taro-ui/dist/style/components/float-layout.scss';
+
+@import '../../../stylesheets/base/index';
+
+.float-layout {
+  @include base-symbol-floatLayout;
+}
