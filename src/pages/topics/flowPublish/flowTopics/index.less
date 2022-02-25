@@ -1,0 +1,22 @@
+@import '../../../../stylesheets/base/index';
+
+page {
+  .pet-flowTopics {
+    &-list {
+      &-item {
+        padding: 17PX;
+
+        .list {
+          &-item {
+            &-title {
+              width: calc(100% - 88PX);
+              font-size: 17PX;
+            }
+          }
+        }
+      }
+    }
+
+    @base-symbol-loadMore();
+  }
+}
