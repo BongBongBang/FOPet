@@ -1,0 +1,49 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "Pat-Planet",
+	"description": "For Pat-Planet",
+	"appid": "wxc8bccc0233cf1237",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": true,
+		"minified": false,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.3",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "分享进入此页面",
+					"pathName": "pages/shareDetail/index",
+					"query": "id=80&page=index",
+					"scene": 1044,
+					"shareInfo": {
+						"groupName": "测试模拟群0",
+						"shareName": "0OVRaQhyf4xX-Pv4LJLlXeFGu_vH8MH5vQ3v5kcdRmQ@cr4dev",
+						"shareKey": "ExEfTcn_TrrfzTMfqVmxdaFOUNCZztHUQEMGieMpcrKP-77qAJFXqMGGmCjpMcJBNQBHSJzSuEgNWoPzeTR53A~~"
+					}
+				}
+			]
+		}
+	}
+}
