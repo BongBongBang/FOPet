@@ -1,0 +1,209 @@
+page {
+  & {
+    background-color: #f2f2f2;
+  }
+
+  .pet-detail {
+
+    &-activity-indicator {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      .at-activity-indicator__body {
+        margin-bottom: 32px;
+      }
+    }
+
+    &-header {
+      & {
+        height: 60px;
+        background-color: #fff;
+      }
+
+      &-container {
+        & {
+          color: #000;
+          margin-left: 2.33333%;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          line-height: 2;
+        }
+
+        .pet-detail-header-title {
+          font-size: 32px;
+          font-weight: bolder;
+          margin-left: 16px;
+        }
+      }
+
+      &-tags {
+        position: relative;
+        padding: 0 8px;
+        background-color: #f4d7d5;
+        color: #ec544c;
+        border-width: 1px;
+        border-color: #f4d7d5;
+        height: 32px;
+        line-height: 30px;
+        bottom: 3px;
+      }
+
+      &-collection {
+        line-height: 60px;
+        text-align: right;
+
+        &-button {
+
+          &-collected {
+            border: none !important;
+            background-color: transparent !important;
+            color: #ccc !important;
+          }
+
+          font-size: 24px;
+          min-width: 64px;
+          height: 54px;
+          line-height: 52px;
+          margin-top: 3px;
+          border-radius: 80px;
+          color: #fb2a5d;
+          border: 1px solid #eee;
+          padding: 0 25px;
+        }
+      }
+    }
+
+    &-content {
+      width: 100%;
+      position: relative;
+      padding: 0 24px 20px;
+      box-sizing: border-box;
+      background-color: #fff;
+
+      &-price {
+        font-size: 36px;
+        font-weight: bold;
+        color: #ec544c;
+        margin-bottom: 4px;
+
+        &-symbol {
+          font-size: 28px;
+          margin-right: 10px;
+        }
+      }
+
+      &-area {
+        font-size: 24px;
+        color: #999;
+
+        &-icon {
+          margin-right: 6px;
+        }
+      }
+
+      &-operation {
+        position: absolute;
+        display: flex;
+        top: 0;
+        right: 0;
+      }
+
+      &-share {
+        &-button {
+          & {
+            border: none;
+            height: 88px;
+          }
+
+          .iconfont-petPlanet-share {
+            font-weight: 500;
+          }
+        }
+
+        &-title {
+          line-height: 0;
+          margin-top: 8px;
+          font-size: 12PX;
+          color: #666;
+        }
+      }
+
+      &-collection {
+        &-button {
+          & {
+            border: none;
+            height: 88px;
+          }
+
+          .iconfont-petPlanet-collect {
+            font-weight: 500;
+          }
+        }
+
+        &-title {
+          line-height: 0;
+          margin-top: 8px;
+          font-size: 12PX;
+          color: #666;
+        }
+      }
+    }
+
+    &-personal {
+      & {
+        margin-top: 12px;
+        padding: 16px 24px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14PX;
+        color: #333;
+      }
+
+      &-user {
+        & {
+          display: flex;
+          align-items: center;
+        }
+
+        &-avatar {
+          width: 64px;
+          height: 64px;
+          line-height: 64px;
+          margin-right: 16px;
+        }
+      }
+    }
+
+    &-info {
+      & {
+        margin-top: 12px;
+        padding: 16px 24px;
+        background-color: #fff;
+      }
+
+      &-content {
+        font-size: 14PX;
+      }
+    }
+
+    &-images {
+      width: 100%;
+      margin-top: 12px;
+
+      .pet-detail-image-item {
+        width: 100%;
+        height: 820px;
+
+        &:last-child {
+          margin-bottom: 42px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.pet-preparation {
+  & {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    height: 48PX;
+    line-height: 48PX;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+  }
+
+  &-item {
+    width: 76PX;
+    height: inherit;
+    font-size: 16PX;
+    color: #999;
+    text-align: center;
+
+    &-selected {
+      color: #ec544c;
+      font-weight: bolder;
+    }
+  }
+}
