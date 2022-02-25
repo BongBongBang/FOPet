@@ -282,4 +282,4 @@ const staticConfig = {
 	needUserInfoDesc
 };
 
-module.exports = staticConfig;
+export default staticConfig;

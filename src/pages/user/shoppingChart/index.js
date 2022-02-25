@@ -1,7 +1,7 @@
 import Taro, {Component} from '@tarojs/taro';
 import {
 	connect
-} from '@tarojs/redux';
+} from 'redux';
 import {
 	Block,
 	Image,

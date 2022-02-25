@@ -486,7 +486,7 @@ const PetPlanetTools = (function () {
     /**
      * 模板字符串用于祛除变量为null的描述符
      */
-    modelStrCutNull = (strs, ...params) => {
+    modelStrCutNull(strs, ...params) {
       let str = '',
         length = params.length;
       for (let [key, value] of params.entries()) {
