@@ -1,0 +1,87 @@
+page {
+  height: 100%;
+
+  view.pet-me {
+    height: 100%;
+    background-color: #f1f1f1;
+
+    &:before {
+      content: "";
+      display: table-cell;
+    }
+
+    &-information {
+      & {
+        background-color: #fff;
+        padding: 40px 32px;
+        margin-top: 16px;
+        box-sizing: border-box;
+      }
+
+      &-nowrap {
+        padding: 0 0 0 32px;
+      }
+
+      &-avatar {
+        width: 160px;
+        height: 160px;
+        line-height: 160px;
+      }
+
+      open-data.pet-me-information-nickname {
+        line-height: 160px;
+        margin-left: 20px;
+        font-size: 40px;
+      }
+
+      &-publish {
+        & {
+          border-bottom: 1px solid #f1f1f1;
+          height: 120px;
+          line-height: 120px;
+          font-size: 34px;
+        }
+
+        &-detail {
+          & {
+            text-align: right;
+          }
+
+          text.pet-me-information-publish-detail-button {
+            margin-right: 32px;
+          }
+        }
+      }
+
+      &-like {
+        & {
+          height: 120px;
+          line-height: 120px;
+          font-size: 34px;
+        }
+
+        &-detail {
+          & {
+            text-align: right;
+          }
+
+          text.pet-me-information-like-detail-button {
+            margin-right: 32px;
+          }
+        }
+      }
+
+
+      &-detail {
+        & {
+          text-align: right;
+        }
+
+        text.pet-me-information-detail-button {
+          height: 160px;
+          line-height: 160px;
+        }
+      }
+    }
+  }
+}
